@@ -16,6 +16,7 @@
 
 Добавляем 10 случайных пользователей 
 >php artisan tinker
+
 >User::factory()->count(10)->create();
 
 Собираем проект
